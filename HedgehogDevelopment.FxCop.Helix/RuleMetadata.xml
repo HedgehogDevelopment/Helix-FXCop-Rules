@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rules FriendlyName="Sitecore Helix structure">
+  <Rule TypeName="VerifyProjectStructure" Category="Helix" CheckId="ScHlx001">
+    <Name>Validate Helix Projects do not access other Projects</Name>
+    <Description>Verify the Helix Project -> Feature -> Foundation reference structure</Description>
+    <Owner>Hedgehog Development</Owner>
+    <Url>http://www.hhog.com</Url>
+    <Resolution>Do not use classes in other project namespaces</Resolution>
+    <Email></Email>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+  </Rule>
+  <Rule TypeName="VerifyFeatureStructure" Category="Helix" CheckId="ScHlx002">
+    <Name>Validate Helix Features do not access other Features</Name>
+    <Description>Verify the Helix Project -> Feature -> Foundation reference structure</Description>
+    <Owner>Hedgehog Development</Owner>
+    <Url>http://www.hhog.com</Url>
+    <Resolution>Do not use classes in other feature namespaces</Resolution>
+    <Email></Email>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+  </Rule>
+  <Rule TypeName="VerifyFoundationStructure" Category="Helix" CheckId="ScHlx003">
+    <Name>Validate Helix Foundations do not access other Foundations</Name>
+    <Description>Verify the Helix Project -> Feature -> Foundation reference structure</Description>
+    <Owner>Hedgehog Development</Owner>
+    <Url>http://www.hhog.com</Url>
+    <Resolution>Do not use classes in other foundation namespaces</Resolution>
+    <Email></Email>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+  </Rule>
+  <Rule TypeName="VerifyFeatureProjectStructure" Category="Helix" CheckId="ScHlx004">
+    <Name>Validate Helix Features do not access Projects</Name>
+    <Description>Verify the Helix Project -> Feature -> Foundation reference structure</Description>
+    <Owner>Hedgehog Development</Owner>
+    <Url>http://www.hhog.com</Url>
+    <Resolution>Do not use classes in other feature namespaces</Resolution>
+    <Email></Email>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+  </Rule>
+  <Rule TypeName="VerifyFoundationProjectStructure" Category="Helix" CheckId="ScHlx005">
+    <Name>Validate Helix Foundations do not access Projects</Name>
+    <Description>Verify the Helix Project -> Feature -> Foundation reference structure</Description>
+    <Owner>Hedgehog Development</Owner>
+    <Url>http://www.hhog.com</Url>
+    <Resolution>Do not use classes in other feature namespaces</Resolution>
+    <Email></Email>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+  </Rule>
+  <Rule TypeName="VerifyFoundationFeatureStructure" Category="Helix" CheckId="ScHlx006">
+    <Name>Validate Helix Foundations do not access Features</Name>
+    <Description>Verify the Helix Project -> Feature -> Foundation reference structure</Description>
+    <Owner>Hedgehog Development</Owner>
+    <Url>http://www.hhog.com</Url>
+    <Resolution>Do not use classes in other feature namespaces</Resolution>
+    <Email></Email>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+  </Rule>
+</Rules>

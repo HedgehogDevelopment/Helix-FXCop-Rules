@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>HedgehogDevelopment.FxCop.Helix</id>
+    <version>1.0.0.7</version>
+    <title>Code Analysis rules for incorrect Helix references</title>
+    <authors>Charles Turano</authors>
+    <owners>Hedgehog Development</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds rules to Code Analysis to verify Helix specific namespaces are being implemented correctly.</description>
+    <copyright>Copyright © Hedgehog Development 2016</copyright>
+    <tags>Sitecore Helix</tags>
+  </metadata>
+  <files>
+    <file src="HedgehogDevelopment.FxCop.Helix.targets" target="build" />
+    <file src="..\bin\Release\HedgehogDevelopment.FxCop.Helix.dll" target="build/FxCop/Rules" />
+    <file src="init.ps1" target="tools" />
+  </files>
+</package>
